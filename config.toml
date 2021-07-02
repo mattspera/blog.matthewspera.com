@@ -1,0 +1,46 @@
+baseurl = "https://blog.matthewspera.com"
+title = "Matthew Spera - A Technical Blog"
+copyright = "Copyright 2021 - Matthew Spera"
+canonifyurls = true
+theme = "kiera"
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+#disqusShortname = "myShortName"
+
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    name = "Matthew Spera"
+    github = "mattspera"
+    #gitlab = "username"
+    linkedin = "matthewspera"
+    #facebook = "username"
+    #twitter = "username"
+    #instagram = "username"
+    #stackoverflow = "username"
+    #youtube = "user/username" # or channel/channelname
+
+[params]
+    tagline = "\\> ./automate_all_the_things.py"
+    #customCSS = []  #Optional Customised CSS
+
+# uncomment to enable the Tags link on the main toolbar
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 1
+
+# uncomment to enable the Categories link on the main toolbar
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 1
+
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.renderer]
+#      unsafe = true
